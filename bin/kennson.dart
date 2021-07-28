@@ -10,11 +10,11 @@ import 'ppjson.dart';
 void main(List<String> arguments) {
   final parser = ArgParser()
     ..addOption('file', abbr: 'f', help: 'Read JSON from file instead of stdin', valueHelp: 'filename')
-    ..addOption('input', help: 'Read input as parameter instead of stdin', valueHelp: 'json input')
+    ..addOption('input', help: 'Read JSON as parameter instead of stdin', valueHelp: 'json input')
     ..addOption('jsonpath', aliases: ['path'], help: 'Display only the matches of the JSON document', valueHelp: 'JSONPath query')
-    ..addOption('jsonpointer', aliases: ['pointer'], abbr: 'p', help: 'Display only the matches of the JSON pointer')
+    ..addOption('jsonpointer', aliases: ['pointer'], abbr: 'p', help: 'Display only the matches of the JSON pointer', valueHelp: 'JSON Pointer')
     ..addOption('indent', abbr: 'i', help: 'Set space indentation level (prefix with t for tab indentation)', defaultsTo: '2')
-    ..addOption('max-depth', abbr: 'm', help: 'Specify maximum nesting before stopping printing');
+    ..addOption('max-depth', abbr: 'd', help: 'Specify maximum nesting before stopping printing');
     // ..addFlag('force-color', help: "Output using colors even when the environment doesn't allow them", hide: true);
   final ArgResults parsedArgs;
   try {
