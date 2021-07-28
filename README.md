@@ -25,3 +25,10 @@ The compiled executable will be inside the `bin` folder, named `kennson.exe` (re
                                     (defaults to "2")
 -d, --max-depth                     Specify maximum nesting before stopping printing
 ```
+
+## TODO
+
+- [ ] Configuration file
+- [ ] Customisable colour scheme
+- [ ] Default indent
+
