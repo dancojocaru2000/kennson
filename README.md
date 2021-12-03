@@ -20,7 +20,7 @@ The compiled executable will be inside the `bin` folder, named `kennson.exe` (re
 ```text
 -f, --file=<filename>               Read JSON from file instead of stdin
     --input=<json input>            Read JSON as parameter instead of stdin
-    --jsonpath=<JSONPath query>     Display only the matches of the JSON document (also --path)
+    --jsonpath=<JSONPath query>     Display only the matches of the JSON path (also --path)
 -p, --jsonpointer=<JSON Pointer>    Display only the matches of the JSON pointer (also --pointer)
 -i, --indent                        Set space indentation level (prefix with t for tab indentation)
                                     (defaults to "2")

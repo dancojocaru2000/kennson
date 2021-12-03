@@ -11,7 +11,7 @@ void main(List<String> arguments) {
   final parser = ArgParser()
     ..addOption('file', abbr: 'f', help: 'Read JSON from file instead of stdin', valueHelp: 'filename')
     ..addOption('input', help: 'Read JSON as parameter instead of stdin', valueHelp: 'json input')
-    ..addOption('jsonpath', aliases: ['path'], help: 'Display only the matches of the JSON document', valueHelp: 'JSONPath query')
+    ..addOption('jsonpath', aliases: ['path'], help: 'Display only the matches of the JSON path', valueHelp: 'JSONPath query')
     ..addOption('jsonpointer', aliases: ['pointer'], abbr: 'p', help: 'Display only the matches of the JSON pointer', valueHelp: 'JSON Pointer')
     ..addOption('indent', abbr: 'i', help: 'Set space indentation level (prefix with t for tab indentation)', defaultsTo: '2')
     ..addOption('max-depth', abbr: 'd', help: 'Specify maximum nesting before stopping printing');
