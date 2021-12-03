@@ -9,6 +9,7 @@ A terminal utility to pretty print JSON.
 Make sure you have [Dart](https://dart.dev/get-dart) installed, then run the following:
 
 ```bash
+dart pub get
 dart compile exe bin/kennson.dart
 ```
 
